@@ -1,0 +1,62 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    background-color:rgba(75, 194, 233, 0.877);
+    background-image: url(images/binary-code.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 700px;
+    background-color: aliceblue;
+
+    padding: 20px;
+
+    display: flex;
+    column-gap: 30px;
+}
+
+.photo img {
+    width: 200px;
+}
+
+.badge {
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    font-weight: bold;
+    
+    color: white;
+    background-color:rgb(92, 184, 0);
+}
+
+.desc-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.desc-subtitle {
+    margin-top: 10px;
+
+    font-size: 20px;
+
+    color:rgb(0, 156, 122)
+}
+
+.desc p {
+    line-height: 1.5;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
